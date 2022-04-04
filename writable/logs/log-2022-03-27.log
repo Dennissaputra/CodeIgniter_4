@@ -1,0 +1,37 @@
+CRITICAL - 2022-03-27 22:27:42 --> syntax error, unexpected 'App' (T_STRING)
+#0 C:\laragon\www\CI_4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CI_4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\laragon\www\CI_4\app\Controllers\Home.php(11): spl_autoload_call('App\\Models\\Port...')
+#4 C:\laragon\www\CI_4\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\laragon\www\CI_4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\CI_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI_4\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-27 22:28:09 --> Class 'App\Models\PortoModel' not found
+#0 C:\laragon\www\CI_4\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\laragon\www\CI_4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\CI_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI_4\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-27 22:28:10 --> Class 'App\Models\PortoModel' not found
+#0 C:\laragon\www\CI_4\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\laragon\www\CI_4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\CI_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI_4\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-27 23:25:08 --> Undefined variable: row
+#0 C:\laragon\www\CI\app\Views\home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 116, Array)
+#1 C:\laragon\www\CI\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\laragon\www\CI\app\Controllers\Home.php(21): view('home', Array)
+#5 C:\laragon\www\CI\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

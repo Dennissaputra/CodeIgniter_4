@@ -1,0 +1,23 @@
+CRITICAL - 2022-04-03 02:04:34 --> Invalid file: unziper.php
+#0 C:\laragon\www\CI\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('unziper.php')
+#1 C:\laragon\www\CI\system\Common.php(1089): CodeIgniter\View\View->render('unziper', Array, true)
+#2 C:\laragon\www\CI\app\Controllers\Home.php(21): view('unziper', Array)
+#3 C:\laragon\www\CI\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\laragon\www\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-04-03 22:25:50 --> Cannot redeclare App\Models\PortoModel::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 22:41:37 --> syntax error, unexpected '/'
+#0 C:\laragon\www\CI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CI\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\laragon\www\CI\app\Controllers\Home.php(26): view('home', Array)
+#3 C:\laragon\www\CI\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\laragon\www\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
